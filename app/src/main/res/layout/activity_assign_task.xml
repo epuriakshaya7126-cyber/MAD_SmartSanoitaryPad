@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <Button
+            android:id="@+id/btnBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="← Back" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assign Housekeeping Task"
+            android:textColor="#C2185B"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edtReportId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Report ID"
+            android:inputType="number"
+            android:layout_marginTop="16dp" />
+
+        <Spinner
+            android:id="@+id/spinnerTaskType"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/task_types"
+            android:layout_marginTop="12dp" />
+
+        <EditText
+            android:id="@+id/edtAssignedTo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Housekeeping username (e.g. staff)"
+            android:inputType="text"
+            android:layout_marginTop="12dp" />
+
+        <Spinner
+            android:id="@+id/spinnerPriority"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:entries="@array/task_priorities"
+            android:layout_marginTop="12dp" />
+
+        <Button
+            android:id="@+id/btnAssignTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assign Task"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="#C2185B"
+            android:textColor="#FFFFFF" />
+
+    </LinearLayout>
+</ScrollView>

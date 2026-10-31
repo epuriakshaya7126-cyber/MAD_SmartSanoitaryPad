@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="task_types">
+        <item>Refill Stock</item>
+        <item>Machine Maintenance</item>
+    </string-array>
+
+    <string-array name="task_priorities">
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+        <item>Emergency</item>
+    </string-array>
+
+    <string-array name="issue_types">
+        <item>Out of Stock</item>
+        <item>Low Stock</item>
+        <item>Machine Not Working</item>
+        <item>Not Dispensing</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="stock_statuses">
+        <item>Available</item>
+        <item>Low Stock</item>
+        <item>Out of Stock</item>
+    </string-array>
+
+    <string-array name="machine_statuses">
+        <item>Working</item>
+        <item>Not Working</item>
+        <item>Unknown</item>
+    </string-array>
+
+</resources>

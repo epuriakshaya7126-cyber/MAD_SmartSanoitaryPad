@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7FA">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical"
+      android:padding="20dp">
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="← Back" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Report a Problem"
+        android:textColor="#C2185B"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/txtSelectedMachine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selected machine"
+        android:textSize="16sp"
+        android:layout_marginTop="12dp" />
+
+    <Spinner
+        android:id="@+id/spinnerIssueType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/issue_types"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/edtIssueDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Additional details (optional)"
+        android:gravity="top|start"
+        android:minLines="4"
+        android:inputType="textCapSentences|textMultiLine"
+        android:layout_marginTop="12dp" />
+
+    <Button
+        android:id="@+id/btnSubmitReport"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit Report"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#C2185B"
+        android:layout_marginTop="20dp" />
+
+  </LinearLayout>
+</ScrollView>

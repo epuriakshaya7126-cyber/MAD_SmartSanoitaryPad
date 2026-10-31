@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="SmartPad ♡"
+            android:textColor="#C2185B"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            android:text="Hello! Welcome to SmartPad"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txtDashboardRole"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Dashboard"
+            android:textColor="#7A5264"
+            android:textSize="16sp" />
+
+        <Button
+            android:id="@+id/btnViewMachines"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="View Machines"
+            android:backgroundTint="#C2185B"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/btnReportIssue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Report a Problem"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnMyReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Reports"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnAnnouncements"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Announcements"
+            android:layout_marginTop="10dp" />
+
+        <Button
+            android:id="@+id/btnUpdateMachine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update Machine Status"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnManageReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Reports"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnAssignTask"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Assign Task"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnManageTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Manage Tasks"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnPostAnnouncement"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Post Announcement"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnMyTasks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My Assigned Tasks"
+            android:layout_marginTop="10dp"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>
